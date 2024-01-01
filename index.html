@@ -12,7 +12,8 @@
                     <li>Other tags</li>
                     <li>Text types</li>
                     <li>Lists</li>
-                    <li>Classes and IDs</li>                   
+                    <li>Classes and IDs</li>
+                    <li>Comments</li>
                 </ul>
             </nav>
             <h2>Consolidating Coding Chaos</H2>
@@ -42,7 +43,7 @@
             </div>
         </div>
         <div class="text-types">
-            <h1>H1 are the biggest <strong>headings</strong></h1>
+            <h1>H1 are the biggest and most important <strong>headings</strong></h1>
             <h2>Headings 2-5</h2>
             <h3>Decrease</h3>
             <h4>in relative size</h4>
@@ -55,7 +56,8 @@
             <p>The <strong>strong</strong> tag adds importance</p>
             <p>The <em>em</em> tag adds emphasis</p>
             <p>The "br" tag <br>
-                adds a linebreak</p>
+                adds a linebreak*</p>
+            <p class="asterix">*Does not need a closing tag</p>
             <p>The <span>span</span> tag is often used to add a particular stlye to the inline text, like making it blue
                 and underlined</p>
         </div>
@@ -83,9 +85,10 @@
             <h3>Images</h3>
             <p>Image tags are a little bit different</p>
             <ul>
-                <li>Img needs a source "src"</li>
+                <li>Img needs a source "src" which can be Relative or Absolute</li>
                 <li>Img needs a clear description for a screen reader "alt"</li>
                 <li>Does not use an end tag</li>
+                <li>Responsive images are wrapped in "figure" tags</li>
             </ul>
             <figure>
 
@@ -101,7 +104,8 @@
             <p>Hyperlinks can send a user to another section of the page or to another page altogether</p>
             <p>The<strong>target="_blank"</strong> attribute opens the link in a new tab</p>
             <p>rel="noopener" denies the new browser access to the document that opened it</p>
-            <p>rel="noreferrer" blocks external sites from seeing the source link on the page and causes the traffic to appear as direct</p>
+            <p>rel="noreferrer" blocks external sites from seeing the source link on the page and causes the traffic to
+                appear as direct</p>
         </div>
         <div class="head">
             <h3>The "head" includes machine readable information such as:</h3>
@@ -120,40 +124,74 @@
             <div class="content-wrapper">
                 <h3>Structure and sematic tags</h3>
                 <p>These tags assist with the layout of a page for ease of readability</p>
-                    <h4>Body</h4>
-                    <p>The body tags contain <em>all</em>the contents of a HTML page including the header, main, aside, footer, images, tables</p>
-                    <h4>Header</h4>
-                    <p>
-                        The header usually includes the main title, navigation section, logo (if relevant) and sometimes some basic information
-                    </p>
-                    <h4>Nav</h4>
-                    <p>The nav/navigation section is usually a list with links to the relevant sections/pages
-                    </p>
-                    <h4>Main</h4>
-                    <p>The main section includes smaller sections and divs with the most important contents/information for the web page
-                    </p>
-                    <h4>Div</h4>
-                    <p>Create divisions or small sections of a web page for layout or styling purposes
-                    </p>
-                    <h4>Section</h4>
-                    <p>Sections need a heading and are major segments of the site
-
-                    </p>
-                    <h4>Article</h4>
-                    <p>Articles are self-contained/complete sections that make sense when read on their own like a blog post or comment
-                    </p>
-                    <h4>Aside</h4>
-                    <p>The aside contains content that is separate from the main theme/content such as a quote, definition or reference
-                    </p>
-                    <h4>Footer</h4>
-                    <p>The footer is at the bottom of the web page and can include some text, articles or images</p>
+                <h4>Body</h4>
+                <p>The body tags contain <em>all</em>the contents of a HTML page including the header, main, aside,
+                    footer, images, tables</p>
+                <h4>Header</h4>
+                <p>
+                    The header usually includes the main title, navigation section, logo (if relevant) and sometimes
+                    some basic information
+                </p>
+                <h4>Nav</h4>
+                <p>The nav/navigation section is usually a list with links to the relevant sections/pages
+                </p>
+                <h4>Main</h4>
+                <p>The main section includes smaller sections and divs with the most important contents/information for
+                    the web page
+                </p>
+                <h4>Div</h4>
+                <p>Create divisions or small sections of a web page for layout or styling purposes
+                </p>
+                <h4>Section</h4>
+                <p>Sections need a heading and are major segments of the site
+                </p>
+                <h4>Article</h4>
+                <p>Articles are self-contained/complete sections that make sense when read on their own like a blog post
+                    or comment
+                </p>
+                <h4>Aside</h4>
+                <p>The aside contains content that is separate from the main theme/content such as a quote, definition
+                    or reference
+                </p>
+                <h4>Footer</h4>
+                <p>The footer is at the bottom of the web page and can include some text, articles or images</p>
             </div>
         </section>
     </main>
     <aside>
-        <h3>The aside section is different to the main</h3>
-        <p> The aside section is not part of the main flow and can appear at different locations on different size
-            screens</p>
+        <h2>Behind the scene</h3>
+            <div class="content-wrapper">
+                <article>
+                    <h3>Comments</h3>
+                    <p>Comments are notes to yourself or other coders that help with to understand the structure and
+                        purpose
+                        of the code</p>
+                    <figure>
+                        <img>
+                    </figure>
+                </article>
+                <article>
+                    <h3>Classes and IDs</h3>
+                    <p>A class is a label inside an opening tag for a group of elements to allow grouped styling                    
+                    </p>
+                    <figure>
+                        <img>
+                    </figure>
+                    <p>An ID is a label inside an opening tag for a single element to allow unique styling</p>
+                    <figure>
+                        <img>
+                    </figure>
+                </article>
+                <article>
+                    <h3>Readable format</h3>
+                    <p>Using "alt + shift + F" automatically indents lines on VS code using a PC to assist with easy
+                        reading
+                    </p>
+                    <figure>
+                        <img>
+                    </figure>
+                </article>
+            </div>
     </aside>
     <footer>
         <div>
