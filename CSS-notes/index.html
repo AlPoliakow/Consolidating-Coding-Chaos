@@ -1,10 +1,12 @@
 <head>
-    <title></title>
+    <title>CSS | notes</title>
 </head>
+
 <body>
     <header>
-        <h1>
-
+        <h1><span>C</span>ascading <br>
+            <span>S</span>tyle<br>
+            <span>S</span>heets
         </h1>
         <nav>
             <ul>
@@ -13,45 +15,41 @@
                 <li>Text</li>
                 <li>Backgrounds</li>
                 <li>Borders</li>
+                <li>Margin and padding</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="color">
-            <h3>Color</h3>
-            <p>Color is denoted by a word (color name) or hexidecimal reference value
-            </p>
-            <figure>
-                <img alt="color line of code"><!--font,border,background color exmaples-->
-            </figure>
-            <figure>
-                <img alt="color line of code">
-            </figure>
-            <figure>
-                <img alt="hexidecimal color chart">
-            </figure>
-            <h4>Color contrast</h4>
-            <p>There are a range of of color vision abilities <!--include reference link-->
-            When selecting colors, the contrast needs to be sufficiently significant to allow for maximal readability.
-            Font boldness also increases readability. </p>
-            <h5>References and resources include</h5>
-            <ul>
-                <li><a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a></li>
-                <li><a href="https://color.review/">Color Review</a></li>
-            </ul>
-        </section>
         <section class="Text">
             <div>
                 <h3>Text align</h3>
+                <p class="left">Left</p>
+                <p class="right">Right</p>
+                <p class="center">Center</p>
+                <p class="justify">Justify</p>
             </div>
             <div>
-                <h3>Font family</H3>
+                <h3>Font family</h3>
+                <p>Font family requires a link in the head section of the HTML and changes the font used
+                </p>
             </div>
             <div>
-                <h3>Font size</H3>
+                <h3>Font size</h3>
+                <p>Font size can be measured in pixels, em or rem</p>
+                <p class="1em">1em</p>
+                <p class="2em">2em</p>
+                <p class="3em">3em</p>
+                <figure>
+                    <img alt="font-size code">
+                </figure>
             </div>
             <div>
-                <h3>Font style</H3>
+                <h3>Font style</h3>
+                <p>Fonts can be <span class="normal">normal</span>, <span class="italic"> italic</span>or <span class="oblique"> oblique</span>
+                </p>
+                <figure>
+                    <img alt="font-style code">
+                </figure>
             </div>
             <div>
                 <h3>Text decoration</H3>
@@ -83,9 +81,9 @@
             <div>
                 <h3>List style</H3>
             </div>
-
-
-
+            <div>
+                <h3>Text shadow</h3>
+            </div>
         </section>
         <section class="fonts">
             <h3>Fonts</h3>
@@ -94,15 +92,62 @@
             <p>To use a font in CSS, a "link" must be included in the "head" of the related index.html</p>
             <figure>
                 <img> <!--HTML code example-->
-            </figure><figure>
+            </figure>
+            <figure>
                 <img> <!--CSS code example-->
             </figure>
         </section>
-        <section class="backgrounds">
-            
+        <section class="backgrounds"></section>
         </section>
         <section class="borders">
-            
+            <h3>Borders</h3>
+            <p>Borders require information for 3 key features:
+            </p>
+            <ol>
+                <li>Width in pixels</li>
+                <li><a href="https://www.w3schools.com/css/css_border.asp" target="_blank" rel="noopener noreferrer">Type</a></li>
+                <li>color</li>
+            </ol>
+            <figure>
+                <img alt="Border code lines">
+            </figure>
+            <div class="corners">
+            <p>Borders have square corners which can be rounded using the border radius element
+            </p>
+            </div>
+        </section>
+        <section class="color">
+            <h3>Color</h3>
+            <p>Color is denoted by a word (color name) or hexidecimal reference value
+            </p>
+            <figure>
+                <img alt="color line of code"><!--font,border,background color exmaples-->
+            </figure>
+            <figure>
+                <img alt="hexidecimal color chart">
+            </figure>
+            <h4>Color contrast</h4>
+            <p>There are a range of of color vision abilities <!--include reference link-->
+                When selecting colors, the contrast needs to be sufficiently significant to allow for maximal
+                readability.
+                Font boldness also increases readability. </p>
+            <h5>References and resources include</h5>
+            <ul>
+                <li><a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a></li>
+                <li><a href="https://color.review/">Color Review</a></li>
+            </ul>
+        </section>
+        <section class="margin-padding">
+            <figure>
+                <img alt="margin-padding code line">
+            </figure>
+            <figure>
+                <img alt="diagram">
+            </figure>
+        </section>
+        <section class="sizing">
+            <h3>Sizing</h3>
+            <p>Width and height can be measured in pixels or percentages or can be relative using flexbox<!--link--></p>
         </section>
     </main>
     <footer>
