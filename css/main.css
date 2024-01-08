@@ -1,0 +1,74 @@
+.justify-content {
+  border: dotted 3px grey;
+  width:50%;
+  /*--position:relative;--*/
+}
+
+.justify-content .parent {
+  padding: 5px;
+  box-sizing: border-box;
+  border: dotted 3px grey;
+  height:100px;
+  /*--position:absolute;--*/
+}
+
+.justify-content .child{
+  width:20%;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.jc-center {
+  display:flex;
+  Justify-content:center;
+}
+
+.jc-center div{
+  border: solid 3px green;
+}
+
+.jc-space-around {
+  display:flex;
+  Justify-content:space-around;
+}
+
+.jc-space-around div {
+  border: solid 3px red;
+}
+
+.jc-space-evenly {
+  display:flex;
+  Justify-content:space-evenly;
+}
+
+.jc-space-evenly div{
+  border: solid 3px black;
+}
+
+.jc-space-between {
+  display:flex;
+  Justify-content:space-between;
+}
+
+.jc-space-between div{
+  border: solid 3px yellow;
+}
+
+.jc-flex-end {
+  display:flex;
+  Justify-content:flex-end;
+}
+
+.jc-flex-end div{
+  border: solid 3px purple;
+}
+
+.jc-flex-start {
+  display:flex;
+  Justify-content:flex-start;
+}
+
+.jc-flex-start div {
+  border: solid 3px pink;
+}
